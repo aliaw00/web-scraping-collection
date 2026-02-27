@@ -5,7 +5,7 @@ note: in developing
 
 todo:
 1. Job Market Intelligence Dashboard []
-2. Price Tracker & Alert System []
+2. Price Tracker & Alert System [X]
 3. News Sentiment Analyzer []
 4. Crypto / Stock Monitoring Bot []
 5. Reddit Trend Miner []

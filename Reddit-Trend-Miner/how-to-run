@@ -1,0 +1,8 @@
+How to Run
+
+1. Generate Reddit API credentials by creating an app at `reddit.com/prefs/apps` (select "script").
+2. Fill in your `.env` file.
+3. Run the pipeline to collect data:
+`python main.py`
+4. Launch the dashboard:
+`streamlit run dashboard/app.py`

@@ -25,4 +25,4 @@ A curated collection of lightweight, efficient web scrapers designed for automat
 
 ## 🛠️ Tech Stack
 * **Language:** Python
-* **Libraries:** *[e.g., BeautifulSoup, Playwright, Scrapy - add your tools here]*
+* **Libraries:** *[e.g., BeautifulSoup, Playwright, Scrapy - other tools]*

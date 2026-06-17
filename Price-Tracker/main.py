@@ -61,6 +61,6 @@ if __name__ == "__main__":
             run_once()
             sleep_time = random.randint(CHECK_INTERVAL_MIN, CHECK_INTERVAL_MAX)
             logging.info(f"Sleeping {sleep_time}s")
-            time.sleep(0.1)
+            time.sleep(sleep_time)
     else:
         run_once()

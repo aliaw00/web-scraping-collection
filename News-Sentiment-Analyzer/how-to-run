@@ -1,0 +1,13 @@
+How to Run - News Sentiment Analyzer
+
+1. Navigate to the News-Sentiment-Analyzer directory:
+   cd News-Sentiment-Analyzer
+
+2. Install the Python dependencies:
+   pip install -r requirements.txt
+
+3. (Optional) Run the ETL scraping and sentiment scoring pipeline to prepopulate the database:
+   python main.py
+
+4. Start the interactive data visualization dashboard:
+   streamlit run dashboard/app.py

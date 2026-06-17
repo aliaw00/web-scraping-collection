@@ -12,9 +12,9 @@ A curated collection of lightweight, efficient web scrapers designed for automat
 | :--- | :--- | :---: |
 | **Price Tracker & Alert System** | Monitors product prices and sends alerts on drops. | ✅ Done |
 | **Job Market Intelligence Dashboard** | Aggregates job listings to analyze market trends. | ⏳ W.I.P. |
-| **News Sentiment Analyzer** | Scrapes news headlines for sentiment analysis. | ⏳ W.I.P. |
+| **News Sentiment Analyzer** | Scrapes news headlines for sentiment analysis. | ✅ Done |
 | **Crypto & Stock Monitoring Bot** | Tracks financial market data in real-time. | ⏳ W.I.P. |
-| **Reddit Trend Miner** | Extracts trending topics and discussions. | ⏳ W.I.P. |
+| **Reddit Trend Miner** | Extracts trending topics and discussions. | ✅ Done |
 | **University Course Aggregator** | Consolidates academic course details and schedules. | ⏳ W.I.P. |
 | **Real Estate Analytics Tool** | Gathers property listings for market valuation. | ⏳ W.I.P. |
 | **GitHub Repository Analyzer** | Collects repository metrics and developer trends. | ⏳ W.I.P. |

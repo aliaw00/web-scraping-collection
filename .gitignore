@@ -14,6 +14,7 @@ env/
 !.env.example
 *.pem
 *.key
+.streamlit/secrets.toml
 
 # Build / Packaging
 build/

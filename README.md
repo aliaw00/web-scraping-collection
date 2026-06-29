@@ -21,7 +21,7 @@ Here is the current roadmap of our scraping tools:
 | 💼 **Job Market Dashboard** | Aggregates job search platforms to highlight hiring trends. | Playwright, Pandas | ⏳ W.I.P. |
 | 📈 **Crypto & Stock Bot** | Connects to financial endpoints for market tickers. | Requests, Websockets | ⏳ W.I.P. |
 | 🏠 **Real Estate Analytics** | Aggregates housing market listings for valuation tracking. | Scrapy, Pandas | ⏳ W.I.P. |
-| 🎓 **University Course Aggregator** | Pulls and formats academic courses and schedules. | BeautifulSoup4 | ⏳ W.I.P. |
+| 🎓 **[University-Course-Aggregator](University-Course-Aggregator)** | Pulls, parses, and consolidates academic courses, syllabi, and schedules. | Requests, BeautifulSoup4, SQLite | ✅ Done |
 | 🐙 **GitHub Repo Analyzer** | Processes developer repository metrics and code patterns. | GitHub API, Pandas | ⏳ W.I.P. |
 | ⚽ **Sports Statistics** | Gathers player standings, match reports, and game stats. | Requests, BeautifulSoup4 | ⏳ W.I.P. |
 | 📄 **Academic Paper Metadata** | Collects research paper citations and PDF details. | Crossref API, PyPDF | ⏳ W.I.P. |

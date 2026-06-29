@@ -142,3 +142,49 @@ An automated RSS/Atom reader classifying global headlines into positive, neutral
 * **Sentiment Area Charts**: Track the fluctuations of news tone over time.
 * **Vocabulary Extraction**: Identify key vocabularies driving positive or negative headlines.
 * **Feed Explorer**: Search specific keywords or filter sentiment categories inside the interactive tabular list, using direct hyperlinks to target news pages.
+
+---
+
+## 🎓 4. University Course Aggregator
+
+Consolidates course catalogs, syllabi, timings, and instructor data from multiple academic providers into a searchable local SQLite database.
+
+### ⚙️ Setup and Configuration
+1. Navigate to the project folder:
+   ```bash
+   cd University-Course-Aggregator
+   ```
+2. Install Python dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Copy the configuration settings:
+   ```bash
+   cp .env.example .env
+   ```
+
+### 🚀 Running the Project
+* **Live Scrape & Cache**: Run the scraper to pull course details matching your search query:
+  * Running with Mock catalog (offline-first test):
+    ```bash
+    python main.py --query "computer science" --provider mock
+    ```
+  * Scrape from real-world online platforms (Coursera/Stanford XML/MIT OCW RSS):
+    ```bash
+    python main.py --query "data science" --provider coursera
+    python main.py --query "machine learning" --provider all
+    ```
+* **Offline Query Database**: Search previously cached courses inside the local database:
+  ```bash
+  python main.py --query "programming" --search-db
+  ```
+* **Consolidated Data Export**: Save matching courses into JSON or CSV files:
+  ```bash
+  python main.py --query "Calculus" --provider mock --export json --output calculus_courses.json
+  ```
+
+### 🕹️ How to Use
+* **Console Output**: Lists search results formatted with course codes, instructors, schedules, and description previews.
+* **SQLite Cache**: Scraped courses are stored in `courses.db` inside the `courses` table to avoid repeating network requests.
+* **Testing**: Run `python3 -m unittest tests/test_aggregator.py` to verify the codebase functions correctly.
+
